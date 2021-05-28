@@ -21,7 +21,7 @@ it("renders correctly", () => {
       transition: background-color 0.2s ease-in-out;
       border: 0;
       border-radius: 50%;
-      background-color: #eeeaf4;
+      background-color: #F4F1EA;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
       margin: 0;
     }
@@ -46,7 +46,7 @@ it("renders correctly", () => {
     }
 
     .c0:checked {
-      background-color: #31D0AA;
+      background-color: #2BB44E;
     }
 
     .c0:checked:after {

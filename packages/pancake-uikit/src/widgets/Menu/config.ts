@@ -47,7 +47,7 @@ export const links = [
     href: "/syrup",
   },
   {
-    label: "Lottery",
+    label: "Lotería",
     icon: "TicketIcon",
     href: "/lottery",
   },
@@ -205,7 +205,7 @@ export const socials = [
   },
 ];
 
-export const MENU_HEIGHT = 64;
-export const MENU_ENTRY_HEIGHT = 48;
+export const MENU_HEIGHT = 80;
+export const MENU_ENTRY_HEIGHT = 32;
 export const SIDEBAR_WIDTH_FULL = 240;
 export const SIDEBAR_WIDTH_REDUCED = 56;

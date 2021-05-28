@@ -148,7 +148,7 @@ it("renders correctly", () => {
     .c2 {
       width: 72px;
       height: 40px;
-      background: #31D0AA;
+      background: #2BB44E;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
       display: inline-block;
       border-radius: 50px;
@@ -343,7 +343,7 @@ it("renders correctly scale sm", () => {
     .c2 {
       width: 36px;
       height: 20px;
-      background: #31D0AA;
+      background: #2BB44E;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
       display: inline-block;
       border-radius: 50px;

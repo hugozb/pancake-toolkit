@@ -17,7 +17,7 @@ it("renders correctly", () => {
       border: 0px 2px 12px -8px rgba(25,19,38,0.1),0px 1px 1px rgba(25,19,38,0.05);
       border-radius: 32px;
       box-shadow: 0px 2px 12px -8px rgba(25,19,38,0.1),0px 1px 1px rgba(25,19,38,0.05);
-      color: #280D5F;
+      color: #22232B;
       overflow: hidden;
       position: relative;
     }
@@ -27,7 +27,7 @@ it("renders correctly", () => {
     }
 
     .c1 {
-      background: linear-gradient(111.68deg,#F2ECF2 0%,#E8F2F6 100%);
+      background: linear-gradient(111.68deg,#F0F0F0 0%,#F5F6F6 100%);
       padding: 24px;
     }
 

@@ -9,7 +9,7 @@ it("renders correctly", () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c3 {
-      color: #7A6EAA;
+      color: #343434;
       font-size: 12px;
       font-weight: 400;
       line-height: 1.5;
@@ -18,11 +18,11 @@ it("renders correctly", () => {
     }
 
     .c1 {
-      background-color: #eeeaf4;
+      background-color: #F4F1EA;
       border: 0;
       border-radius: 16px;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
-      color: #280D5F;
+      color: #22232B;
       display: block;
       font-size: 16px;
       height: 40px;
@@ -32,19 +32,19 @@ it("renders correctly", () => {
     }
 
     .c1::-webkit-input-placeholder {
-      color: #7A6EAA;
+      color: #343434;
     }
 
     .c1::-moz-placeholder {
-      color: #7A6EAA;
+      color: #343434;
     }
 
     .c1:-ms-input-placeholder {
-      color: #7A6EAA;
+      color: #343434;
     }
 
     .c1::placeholder {
-      color: #7A6EAA;
+      color: #343434;
     }
 
     .c1:disabled {
@@ -59,8 +59,8 @@ it("renders correctly", () => {
     }
 
     .c0 {
-      background-color: #eeeaf4;
-      border: 1px solid #d7caec;
+      background-color: #F4F1EA;
+      border: 1px solid #ECE3CA;
       border-radius: 16px;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
       padding: 8px 16px;
@@ -76,19 +76,19 @@ it("renders correctly", () => {
     }
 
     .c2::-webkit-input-placeholder {
-      color: #7A6EAA;
+      color: #343434;
     }
 
     .c2::-moz-placeholder {
-      color: #7A6EAA;
+      color: #343434;
     }
 
     .c2:-ms-input-placeholder {
-      color: #7A6EAA;
+      color: #343434;
     }
 
     .c2::placeholder {
-      color: #7A6EAA;
+      color: #343434;
     }
 
     .c2:focus:not(:disabled) {

@@ -19,21 +19,42 @@
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook",
     "test": "jest",
-    "prepublishOnly": "yarn build"
-  },
-  "jest": {
-    "setupFilesAfterEnv": [
-      "<rootDir>/src/setupTests.js"
-    ]
+    "prepublishOnly": "yarn build",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.14.0",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-info": "^5.3.21",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
     "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.5",
+    "@testing-library/react": "^11.2.7",
+    "@types/jest": "^26.0.23",
+    "@types/storybook__react": "^5.2.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-jest": "^27.0.1",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "jest": "^27.0.1",
+    "jest-environment-jsdom": "^27.0.1",
+    "jest-environment-jsdom-global": "^2.0.4",
+    "jest-esm-transformer": "^1.0.0",
     "jest-styled-components": "^7.0.3",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^17.0.2",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
-    "styled-components": "^5.2.0"
+    "react-test-renderer": "^17.0.2",
+    "styled-components": "^5.2.0",
+    "test-jest": "^1.0.1",
+    "ts-jest": "^27.0.1",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2"
   },
   "peerDependencies": {
     "react": "^17.0.2",
@@ -42,9 +63,13 @@
     "styled-components": "^5.2.3"
   },
   "dependencies": {
+    "@pancakeswap-libs/uikit": "^0.29.4",
     "@popperjs/core": "^2.9.2",
     "@types/lodash": "^4.14.168",
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
     "@types/styled-system": "^5.1.10",
+    "jest-esm-transformer": "^1.0.0",
     "lodash": "^4.17.20",
     "react-popper": "^2.2.5",
     "react-transition-group": "^4.4.1",

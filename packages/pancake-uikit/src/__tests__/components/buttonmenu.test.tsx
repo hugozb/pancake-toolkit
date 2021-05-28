@@ -15,7 +15,7 @@ it("renders correctly", () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c0 {
-      background-color: #EFF4F5;
+      background-color: #F5F3EF;
       border-radius: 16px;
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
@@ -59,7 +59,7 @@ it("renders correctly", () => {
       transition: background-color 0.2s,opacity 0.2s;
       height: 48px;
       padding: 0 24px;
-      background-color: #1FC7D4;
+      background-color: #4F4F4F;
       color: white;
     }
 
@@ -115,9 +115,9 @@ it("renders correctly", () => {
       transition: background-color 0.2s,opacity 0.2s;
       height: 48px;
       padding: 0 24px;
-      background-color: #EFF4F5;
+      background-color: #F5F3EF;
       box-shadow: none;
-      color: #1FC7D4;
+      color: #4F4F4F;
     }
 
     .c2:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
@@ -143,7 +143,7 @@ it("renders correctly", () => {
 
     .c3 {
       background-color: transparent;
-      color: #7A6EAA;
+      color: #343434;
     }
 
     .c3:hover:not(:disabled):not(:active) {

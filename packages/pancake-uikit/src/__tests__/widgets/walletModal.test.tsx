@@ -8,14 +8,14 @@ it("renders ConnectModal correctly", () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c5 {
-      color: #280D5F;
+      color: #22232B;
       font-size: 16px;
       font-weight: 600;
       line-height: 1.5;
     }
 
     .c13 {
-      color: #1FC7D4;
+      color: #4F4F4F;
       font-size: 16px;
       font-weight: 600;
       line-height: 1.5;
@@ -23,7 +23,7 @@ it("renders ConnectModal correctly", () => {
     }
 
     .c16 {
-      color: #1FC7D4;
+      color: #4F4F4F;
       font-size: 16px;
       font-weight: 600;
       line-height: 1.5;
@@ -52,7 +52,7 @@ it("renders ConnectModal correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #1FC7D4;
+      fill: #4F4F4F;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -62,7 +62,7 @@ it("renders ConnectModal correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #280D5F;
+      fill: #22232B;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -72,7 +72,7 @@ it("renders ConnectModal correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #1FC7D4;
+      fill: #4F4F4F;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -132,7 +132,7 @@ it("renders ConnectModal correctly", () => {
       height: 48px;
       padding: 0 24px;
       background-color: transparent;
-      color: #1FC7D4;
+      color: #4F4F4F;
       box-shadow: none;
     }
 
@@ -188,9 +188,9 @@ it("renders ConnectModal correctly", () => {
       transition: background-color 0.2s,opacity 0.2s;
       height: 48px;
       padding: 0 24px;
-      background-color: #EFF4F5;
+      background-color: #F5F3EF;
       box-shadow: none;
-      color: #1FC7D4;
+      color: #4F4F4F;
       width: 100%;
       margin-bottom: 8px;
     }
@@ -247,9 +247,9 @@ it("renders ConnectModal correctly", () => {
       transition: background-color 0.2s,opacity 0.2s;
       height: 48px;
       padding: 0 24px;
-      background-color: #EFF4F5;
+      background-color: #F5F3EF;
       box-shadow: none;
-      color: #1FC7D4;
+      color: #4F4F4F;
       width: 100%;
       margin-bottom: 0;
     }
